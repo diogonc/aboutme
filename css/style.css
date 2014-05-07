@@ -17,7 +17,7 @@ h2 {
    	font-weight: normal;
    	font-size: 40px;
    	text-align: center;
-   	color: #fff;
+   	color: #000;
    	margin: 0;
    	padding: 0;
 }
@@ -56,6 +56,7 @@ h3 {
 	float: left; 
 	font-size: 30px; 
 	margin-top: 20px; 
+	margin-left: 20px;
 	padding: 5px;
 	color: #fff; 
 	font-weight: bold; 
@@ -83,16 +84,12 @@ h3 {
 }
 
 #slide1{
-	background-color: rgba(200,200,200, 0.6);
+	background-color: rgba(220,220,220, 0.6);
 	color: #000;
 	height: 100%;
 	min-height: 960px;
 	margin: 0;
 	background-size: cover;
-}
-
-#slide1 div{
-	margin: 20px;
 }
 
 #slide2{
@@ -102,16 +99,28 @@ h3 {
 	overflow: hidden;
 }
 
-#slide2 h2{
-	color: #000;
+#quem-sou{
+	padding: 110px;
+	font-size: 20px;
+	text-align: justify;
+	width: 60%;
+}
+
+#foto{
+	float: right;
+	margin: 40px;
 }
 
 #curriculo{
-	margin: 20px;
+	margin: 60px 20px;
 }
 
 #curriculo div{
 	width: 100%;
+}
+
+h2{
+	font-size: 60px;
 }
 
 h3,h4{
